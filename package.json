@@ -29,14 +29,5 @@
         "popper.js": "^1.16.1",
         "serve": "^11.3.2",
         "zoom-vanilla.js": "^2.0.6"
-    },
-    "scripts": {
-        "dev": "react-scripts start",
-        "start": "serve -s build",
-        "build": "react-scripts build",
-        "test": "react-scripts test --env=jsdom",
-        "eject": "react-scripts eject",
-        "heroku-postbuild": "npm run build"
     }
-
 }
